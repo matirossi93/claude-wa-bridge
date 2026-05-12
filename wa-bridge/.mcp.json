@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wa-bridge": {
+      "command": "node",
+      "args": ["--no-warnings", "/home/ubuntu/.claude/plugins/local-plugins/wa-bridge/server.mjs"]
+    }
+  }
+}

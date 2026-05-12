@@ -1,0 +1,11 @@
+{
+  "name": "matirossi-channels",
+  "plugins": [
+    {
+      "name": "wa-bridge",
+      "description": "Claude Code channel plugin that bridges to a local jarvis-wa-bridge HTTP service (SSE inbound, POST outbound).",
+      "category": "productivity",
+      "source": "./wa-bridge"
+    }
+  ]
+}

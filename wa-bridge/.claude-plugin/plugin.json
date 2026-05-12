@@ -1,0 +1,5 @@
+{
+  "name": "wa-bridge",
+  "version": "0.1.0",
+  "description": "Claude Code channel plugin for the WA bridge running on this host."
+}
