@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "wa-bridge": {
-      "command": "node",
-      "args": ["--no-warnings", "/home/ubuntu/.claude/plugins/local-plugins/wa-bridge/server.mjs"]
+      "command": "bash",
+      "args": ["-c", "cd ${CLAUDE_PLUGIN_ROOT} && [ -d node_modules ] || npm install --silent --no-audit --no-fund 1>&2 ; exec node --no-warnings ${CLAUDE_PLUGIN_ROOT}/server.mjs"]
     }
   }
 }
