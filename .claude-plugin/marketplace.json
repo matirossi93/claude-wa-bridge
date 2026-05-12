@@ -1,9 +1,18 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "matirossi-channels",
+  "description": "Personal channel plugins by Matias Rossi for the Jarvis-via-WhatsApp setup.",
+  "owner": {
+    "name": "Matias Rossi",
+    "email": "matirossi93@gmail.com"
+  },
   "plugins": [
     {
       "name": "wa-bridge",
       "description": "Claude Code channel plugin that bridges to a local jarvis-wa-bridge HTTP service (SSE inbound, POST outbound).",
+      "author": {
+        "name": "Matias Rossi"
+      },
       "category": "productivity",
       "source": "./wa-bridge"
     }
